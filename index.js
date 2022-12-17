@@ -32,7 +32,7 @@ client.on("ready", () => {
 });
 
 client.on("message", async (msg) => {
-  if (msg.body.startsWith(PREFIX)) {
+  if (msg.body.startsWith(PREFIX) && !msg.getChat().isGroup) {
     const message = msg.body.replace(`${PREFIX} `, "");
 
     response = await bot(message);
