@@ -1,0 +1,27 @@
+{
+  "name": "chatgpt-whatsapp",
+  "version": "1.0.0",
+  "description": "A simple whatsapp bot for implementing chatGPT from OpenAI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon index.js"
+  },
+  "keywords": [
+    "ChatGPT",
+    "OpenAI",
+    "Whatsapp",
+    "Bot",
+    "Whatsapp",
+    "API"
+  ],
+  "author": "IhsanDevs",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0",
+    "puppeteer": "^19.4.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.18.4"
+  }
+}
